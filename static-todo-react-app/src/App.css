@@ -1,0 +1,43 @@
+/* Part 4: Add Styling
+1. Update App.css:
+Add basic styles to make the app visually appealing:
+○ Center the content.
+○ Style the list items with custom bullet points or spacing.
+○ Add padding and margins to create a clean layout.
+2. Enhance the List:
+Style the list elements for better readability, such as:
+○ Adding hover effects on tasks.
+○ Using a custom font for the text. */
+
+body{
+    text-align: center;
+    font-family: 'Arial';
+}
+
+h1 {
+  text-align: center;
+  color:aqua;
+}
+
+div.List{
+    text-align: center;
+}
+
+ul.listText{
+    font-style:normal;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(90deg, blue, lightblue, darkblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.todoItem:hover {
+    transform:scale(1.5);
+    transition: transform 0.3s;
+}
