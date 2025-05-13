@@ -11,7 +11,7 @@ Style the list elements for better readability, such as:
 
 body{
     text-align: center;
-    font-family: 'Arial';
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h1 {
@@ -26,18 +26,20 @@ div.List{
 ul.listText{
     font-style:normal;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     background: linear-gradient(90deg, blue, lightblue, darkblue);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: medium;
     font-weight: bold;
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 1;
+
 }
 
 .todoItem:hover {
-    transform:scale(1.5);
+    transform: scale(1.05);
     transition: transform 0.3s;
 }
+   
