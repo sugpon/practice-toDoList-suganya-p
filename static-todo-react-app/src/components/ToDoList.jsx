@@ -5,6 +5,7 @@ const todos= ["Learn React", "Build a project", "Read documentation"];
     //     <li className="todoItem">Build a Project</li>
     //     <li className="todoItem">Read Documentation</li>
     // </ul>
+    //Learnt that we can use map to iterate over an array and return a new array
     const todoList = todos.map((todo, index) => <li key={index}>{todo}</li>);
     const element = <ul className="listText">
         {todoList}
